@@ -1,0 +1,64 @@
+body{
+    font-family: "Roboto", sans-serif;
+    
+}
+#post {
+    max-width: 400px;
+    margin: auto;
+    border: 2px solid black;
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+h1, h2 {
+    margin-block: 0%;
+    margin-left: 10px;
+}
+h1 {
+    font-size: medium;
+}
+h2 {
+    font-size: small;
+}
+.left-column {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+#main-post-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px;
+
+}
+
+.left-icon {
+    display: flex;
+    margin-left: auto;
+}
+
+.right-icon {
+    margin: 2px;
+}
+
+.fa-html5{
+    font-size: 28px;
+}
+.fa-ellipsis-vertical{
+    font-size: 28px;
+}
+
+
+#post-text{
+    text-align: justify;
+    margin: 2px;
+}
